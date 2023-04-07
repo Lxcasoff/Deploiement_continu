@@ -10,7 +10,7 @@ function create_user($login, $password)
                         if (file_exists($login)) {
                             return 6;
                         } else {
-                            // file_put_contents("/var/www/html/users/" . $login, $password);
+                            file_put_contents("/var/www/html/tests/users/" . $login, $password);
                             return 0;
                         }
                     }
