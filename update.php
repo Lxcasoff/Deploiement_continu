@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 function update_user($username, $old_password, $new_password)
 {
   $userfile = "/var/www/html/users/" . $username;
