@@ -1,5 +1,5 @@
 <?php
-  include("../connect_user.php");
+  include("../connect.php");
 
   $ret1 = connect_user("", "password");
   $ret2 = connect_user("username", "");
