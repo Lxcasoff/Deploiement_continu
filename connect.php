@@ -1,7 +1,7 @@
 <?php
 function connect_user($login, $password)
 {
-    session_start();
+    //session_start();
     $userfile = "/var/www/html/users/" . $login;
     if ((empty($login)) || (empty($password))) {
         return 1;
