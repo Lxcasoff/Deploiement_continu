@@ -1,5 +1,5 @@
 <?php
-  session_start();
+  //session_start();
     function disconnect_user() {
         session_start();
         if (isset($_SESSION["CONNECTED"])) {
