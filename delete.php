@@ -1,5 +1,5 @@
 <?php
-  session_start();
+  //session_start();
 
     function delete_user($username) {
         $userfile = "/var/www/html/users/" . $username;
