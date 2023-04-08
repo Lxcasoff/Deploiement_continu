@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 function create_user($login, $password)
 {
     if ((!empty($login)) && (!empty($password))) {
