@@ -1,5 +1,5 @@
 <?php
-    include("../disconnect_user.php");
+    include("../disconnect.php");
 
     session_start();
     $_SESSION["CONNECTED"] = 1;
